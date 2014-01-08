@@ -1,23 +1,57 @@
-~p1
+~p01
 You want to make scrambled eggs this morning.
 
 Do you...
 
-~p1:c1:p2
+
 Use Gordon Ramsey's recipe?
-~p1:c2:p3
 Whip up your own thing?
-~p1:c3:p4
-Call your friend for a recipe?
+~p01:c3:p2
+Call someone for a for a recipe?
+~p01:c4:p3
+Go online for a recipe?
 
-~p2
-Success! The eggs are super fluffy and delicious. You are full and ready
-for the day.
+~p02
+Great idea.  Who should we call?
 
-~p3
-You are not hungry this morning, but your taste buds are crying for better.
+~p02:c1:p5
+Call Mom
 
-~p4
+~p02:c2:p5
+Call your friend 
+
+~p03
+The internet has lots of choices.
+Where should we look? 
+
+~p03:c1:p8
+Food Network Online
+
+~p03:c2:p9
+I'll just google it
+
+~p04
+Your mom is disappointed that you don't know how to make your own breakfast, and that you only call her to ask for recipes for eggs.  Would it be so hard to stop using that computer for a few minutes to give the woman that raised you a call? its no wonder you cant settle down with any one. can't even make your own eggs. Wny can't you be more like Gordon Ramsey
+
+~p05
 You got tied up in a conversation with your friend arguing about the
-merits of your recipe vs Gordon's. As a result you spent $15 on a lame 
-breakfast at the café, because you had no time to cook.
+merits of your recipe vs Gordon's
+
+~p06
+Food Network's site has a ton of options.  And if Gordon's recipe is as good as you hear, maybe another TV chef has a good breakfast option
+
+~p06:c1:p8
+Ina Garten
+
+~p06:c3:p9
+Sandra Lee
+
+~p07
+You googled scrambled egg recipes and then spent hours watching cat videos.  now you're late!
+
+~p08
+Ina Garten's recipe seems pretty good, seeing she only uses good eggs and good butter. Although you Wonder why Jeffrey is never home and why she never leaves the hamptons.  
+
+~p09
+Sandra Lee's semi-homemade recipe seems to be for an egg mcmuffin and a big pitcher of vodka, but the tablescape she designed would be lovely.  You still wonder how she ended up first lady of New York, but maybe its the vodka talking.
+
